@@ -1,4 +1,4 @@
-import '../styles/Reference.css';
+import '../style/Reference.css';
 import Header from '../components/Header';
 
 const Reference = () => {

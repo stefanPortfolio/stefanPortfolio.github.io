@@ -1,5 +1,5 @@
 import Header from '../components/Header';
-import '../styles/Home.css';
+import '../style/Home.css';
 import BoxRow from '../components/BoxRow';
 import { Box, BoxNoLink } from '../components/Box';
 import Footer from '../components/Footer';

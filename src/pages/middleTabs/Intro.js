@@ -1,4 +1,4 @@
-import '../../styles/MiddleTabs.css';
+import '../../style/MiddleTabs.css';
 import Header from '../../components/Header';
 import BackArrow from '../../components/BackArrow';
 

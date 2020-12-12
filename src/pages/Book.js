@@ -1,4 +1,4 @@
-import '../styles/Book.css';
+import '../style/Book.css';
 import Header from '../components/Header';
 
 const Book = () => {
