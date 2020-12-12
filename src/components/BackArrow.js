@@ -1,4 +1,4 @@
-import '../styles/BackArrow.css';
+import './style/BackArrow.css';
 import { Link } from "react-router-dom";
 
 const Text = () => {

@@ -1,0 +1,51 @@
+.box_row a {
+    text-decoration: none;
+}
+
+.box_row {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    position: relative;
+    width: calc(100% / 3);
+    padding-top: calc(100% / 4); /* 4 to 3 for 1:1 */
+}
+
+.box_row .text {
+    position:  absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_row p, .box_text p {
+    background: white;
+    color: black;
+    padding: 20px;
+    font-size: 2vmax;
+    text-align: center;
+    font-weight: bold;
+}
+
+.box_text {
+    width: calc(100% / 3);
+    padding: 3% 0;
+}
+
+.box_text p {
+    text-align: center;
+    font-size: 1.75vmax;
+    font-weight: normal;
+    background: none;
+}
+
+@media (max-width: 1100px) {
+    .box_row { width: 100%; padding-top: 60%; }
+    .box_text { width: 100%; }
+}

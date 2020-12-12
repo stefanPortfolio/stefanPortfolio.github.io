@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1vmax;
+    margin: 40px 20px;
+}
+
+@media (max-width: 500px) {
+    .header a { font-size: 2vmax; }
+}
+@media (max-width: 900px) and (orientation: landscape)  {
+    .header a { font-size: 2vmax; }
+}

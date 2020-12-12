@@ -1,0 +1,14 @@
+.boxes {
+    width: 100%;
+    font-size: 2vmax;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.row a {
+    text-decoration: none;
+}

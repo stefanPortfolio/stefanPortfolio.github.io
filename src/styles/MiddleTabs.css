@@ -1,9 +1,14 @@
+ul {
+    list-style: circle;
+    list-style-position: inside;
+}
+
 .content {
     width: 50%;
     margin: auto;
     margin-top: 100px;
     padding: 5%;
-    font-size: 30px;
+    font-size: 1.75vmax;
 }
 
 .content::first-letter {

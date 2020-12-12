@@ -1,9 +1,9 @@
-import '../styles/Footer.css';
+import './style/Footer.css';
 
 const Home = () => {
 	return (
-		<div>
-		    <p>FOOTER</p>
+		<div className="footer">
+			<p>Stefan Nilszén 2020</p>
 		</div>
 	)
 };
