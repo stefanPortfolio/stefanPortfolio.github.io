@@ -1,5 +1,6 @@
 import '../../style/MiddleTabs.css';
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import BackArrow from '../../components/BackArrow';
 
 const Intro = () => {
@@ -13,6 +14,8 @@ const Intro = () => {
 			</div>
 
 			<BackArrow />
+
+			<Footer />
 		</div>
 	)
 };

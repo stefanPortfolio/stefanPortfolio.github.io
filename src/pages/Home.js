@@ -1,5 +1,4 @@
 import Header from '../components/Header';
-import '../style/Home.css';
 import BoxRow from '../components/BoxRow';
 import { Box, BoxNoLink } from '../components/Box';
 import Footer from '../components/Footer';
@@ -7,6 +6,8 @@ import Footer from '../components/Footer';
 import TextenImg from '../photos/boxes_second/texten.png';
 import BildenImg from '../photos/boxes_second/bilden.jpg';
 import  IntroImg from '../photos/boxes_second/inledningen.png';
+
+import '../style/Home.css';
 
 const Home = () => {
   return (
@@ -59,60 +60,6 @@ const Home = () => {
       </BoxRow>
 
       <Footer />
-
-
-
-      {/* <div className="boxes">
-        <div className="row fill">
-          <div className="box_text">
-            <p>Det första jag ser i en bok är bilderna ...</p>
-          </div>
-          <div className="box_text">
-            <p>... sedan tittar jag på rubrikerna ...</p>
-          </div>
-          <div className="box_text">
-            <p>... att boken känns bra i handen är också viktigt!</p>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="box_row texten">
-            <a href="texten.html">
-              <p>Texten</p>
-            </a>
-          </div>
-          <div className="box_row bilden">
-            <a href="bilden.html">
-              <p>Bilden</p>
-            </a>
-          </div>
-          <div className="box_row inledningen">
-            <a href="inledning.html">
-              <p>Indelningen</p>
-            </a>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="box_row exbok">
-            <a href="exbok.html">
-              <p>Exempelbok</p>
-            </a>
-          </div>
-          <div className="box_row last">
-            <a href="ref.html">
-              <p>Referenser</p>
-            </a>
-          </div>
-          <div className="box_row contact">
-            <a href="contact.html">
-              <p>Kontakt</p>
-            </a>
-          </div>
-        </div>
-
-      </div> */}
-
     </div>
   )
 };

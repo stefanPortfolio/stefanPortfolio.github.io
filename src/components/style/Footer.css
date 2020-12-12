@@ -1,9 +1,9 @@
 .footer {
-    margin-top: 5%;
+    margin: 2% 0;
     width: 100%;
     height: 100px;
-    background: darkgrey;
-    font-size: 1vmax;
+    color: #524B47;
+    font-size: 1.25vmax;
 
     display: flex;
     justify-content: center;

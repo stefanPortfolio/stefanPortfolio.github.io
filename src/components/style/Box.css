@@ -46,6 +46,6 @@
 }
 
 @media (max-width: 1100px) {
-    .box_row { width: 100%; padding-top: 60%; }
+    .box_row { width: 100%; padding-top: 40%; }
     .box_text { width: 100%; }
 }
