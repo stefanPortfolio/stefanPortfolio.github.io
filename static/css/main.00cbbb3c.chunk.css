@@ -1,0 +1,2 @@
+.header{position:absolute;top:0;left:0;right:0;width:90%;margin:auto;display:flex;align-items:center}.header a{color:#000;text-decoration:none;font-weight:700;font-size:1vmax;margin:40px 20px}@media (max-width:500px){.header a{font-size:2vmax}}@media (max-width:900px) and (orientation:landscape){.header a{font-size:2vmax}}
+/*# sourceMappingURL=main.00cbbb3c.chunk.css.map */
