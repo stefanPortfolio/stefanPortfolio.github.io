@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -11,9 +11,17 @@ import Photo from './pages/middleTabs/Photo';
 import Text from './pages/middleTabs/Text';
 
 const PageNotFound = () => {
-  return (
-    <h1>Page not found!</h1>
-  );
+  const styling = {
+    width: "100%",
+    height: "80vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    fontWeight: "bold",
+    fontSize: "33px"
+  };
+
+  return <div style={styling}>Här var det tomt ¯\_(ツ)_/¯</div>;
 };
 
 ReactDOM.render(
