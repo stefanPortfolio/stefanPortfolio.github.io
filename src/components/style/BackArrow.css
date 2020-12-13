@@ -11,6 +11,5 @@ a {
 }
 
 @media (max-width: 500px) {
-    .content { width: 90%; font-size: 20px; }
     .back { font-size: 20px; }
 }

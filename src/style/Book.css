@@ -1,0 +1,43 @@
+.exbok_boxes {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.exbok_box {
+    width: 100%;
+}
+
+.exbok_img {
+    width: 80%;
+    margin: auto;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.exbok_text {
+    width: 50%;
+    margin: auto;
+    font-size: 1.3vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.file1 { background-image: url("../assets/example_book/ph1.png"); }
+.file2 { background-image: url("../assets/example_book/ph2.png"); }
+.file3 { background-image: url("../assets/example_book/ph3.png"); }
+.file4 { background-image: url("../assets/example_book/ph4.png"); }
+.file5 { background-image: url("../assets/example_book/ph5.png"); }
+.file6 { background-image: url("../assets/example_book/ph6.png"); }
+.file7 { background-image: url("../assets/example_book/ph7.png"); }
+.file8 { background-image: url("../assets/example_book/ph8.png"); }
+
+@media (max-width: 500px) {
+    .exbok_img { height: 30vh; }
+    .exbok_text { font-size: 2vmax; margin-bottom: 50px; }
+}
+@media (max-width: 900px) and (orientation: landscape)  {
+}

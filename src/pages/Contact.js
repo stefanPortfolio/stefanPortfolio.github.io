@@ -1,17 +1,11 @@
 import "../style/Contact.css";
-import { Link } from "react-router-dom";
-import Header from '../components/Header';
-import Footer from '../components/Footer';
 
 function Contact() {
   return (
     <div>
-        <Header />
-        <br />
-        <p>Hello There</p>
-        <Link to='/'>Hem</Link>
-
-        <Footer />
+      <div className="contact_content">
+        Har du frågor eller funderingar, kontakta oss via <a href="mailto:stefan.nilszen@teliacompany.com">email</a> eller på <a href="tel:+46706678855">070-667 88 55</a>!
+      </div>
     </div>
   );
 }

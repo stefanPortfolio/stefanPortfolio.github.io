@@ -10,6 +10,9 @@ import Intro from './pages/middleTabs/Intro';
 import Photo from './pages/middleTabs/Photo';
 import Text from './pages/middleTabs/Text';
 
+import Header from './components/Header';
+import Footer from './components/Footer';
+
 const PageNotFound = () => {
   const styling = {
     width: "100%",
@@ -26,6 +29,7 @@ const PageNotFound = () => {
 
 ReactDOM.render(
     <Router>
+      <Header />
        <Switch>
 		      <Route exact path="/" component={Home} />
 				  <Route exact path="/contact" component={Contact} />
@@ -36,6 +40,7 @@ ReactDOM.render(
 				  <Route exact path="/text" component={Text} />
           <Route exact component={PageNotFound} />
 	    </Switch>
+      <Footer />
     </Router>,
     document.getElementById('root')
 );

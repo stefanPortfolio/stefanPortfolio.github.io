@@ -3,19 +3,19 @@ ul {
     list-style-position: inside;
 }
 
-.content {
+.middle_tab_content {
     width: 50%;
     margin: auto;
     margin-top: 100px;
     padding: 5%;
-    font-size: 1.75vmax;
+    font-size: 1.5vmax;
 }
 
-.content::first-letter {
+.middle_tab_content::first-letter {
     font-size: 300%;
     line-height: 0;
 }
 
 @media (max-width: 500px) {
-    .content { width: 90%; font-size: 20px; }
+    .middle_tab_content { width: 90%; font-size: 20px; }
 }

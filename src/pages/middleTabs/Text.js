@@ -1,13 +1,10 @@
 import '../../style/MiddleTabs.css';
-import Header from '../../components/Header';
-import Footer from '../../components/Footer';
 import BackArrow from '../../components/BackArrow';
 
 const Text = () => {
 	return (
 		<div>
-            <Header />
-			<div className="content">
+			<div className="middle_tab_content">
 				Texten är naturligtvis central i en historia. Den ska ge läsaren information, skapa en upplevelse, ge en känsla och få läsaren att nästa vilja vara med då det hände. <br /><br />
 				Texten kan bestå av flera delar:
 
@@ -25,8 +22,6 @@ const Text = () => {
 			</div>
 
 			<BackArrow />
-
-			<Footer />
 		</div>
 	)
 };
