@@ -3,7 +3,7 @@ import './style/Footer.css';
 const Home = () => {
 	return (
 		<div className="footer">
-			<p>Stefan Nilszén 2020</p>
+			<p>Stefan Nilszén &copy; 2021</p>
 		</div>
 	)
 };

@@ -1,29 +1,42 @@
 .exbok_boxes {
-    width: 100%;
-    margin-top: 100px;
+    width: 90%;
+    margin: auto;
+
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .exbok_box {
-    width: 100%;
-}
+    width: 90%;
+    margin-bottom: 5%;
 
-.exbok_img {
-    width: 80%;
-    margin: auto;
-    height: 50vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* comment this line out? */
+
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    padding: 5%;
 }
 
 .exbok_text {
     width: 50%;
     margin: auto;
-    font-size: 1.3vmax;
+    font-size: 1.35vmax;
+
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.exbok_img {
+    width: 100%;
+    margin: auto;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
 
 .file1 { background-image: url("../assets/example_book/ph1.png"); }
@@ -37,7 +50,6 @@
 
 @media (max-width: 500px) {
     .exbok_img { height: 30vh; }
-    .exbok_text { font-size: 2vmax; margin-bottom: 50px; }
-}
-@media (max-width: 900px) and (orientation: landscape)  {
+    .exbok_text { font-size: 2vmax; width: 100%; }
+    .exbok_box { flex-wrap: wrap; }
 }

@@ -1,0 +1,15 @@
+.headline {
+    margin: 100px 0;
+    width: 100%;
+}
+
+.headline p {
+    font-size: 1.75vmax;
+    text-align: center;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .headline { margin: 100px 0 50px 0; }
+    .headline p { font-size: 2vmax; }
+}

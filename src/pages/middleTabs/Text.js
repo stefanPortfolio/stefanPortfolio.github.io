@@ -1,9 +1,12 @@
 import '../../style/MiddleTabs.css';
 import BackArrow from '../../components/BackArrow';
+import Headline from '../../components/Headline';
 
 const Text = () => {
 	return (
 		<div>
+			<Headline page="Texten" />
+
 			<div className="middle_tab_content">
 				Texten är naturligtvis central i en historia. Den ska ge läsaren information, skapa en upplevelse, ge en känsla och få läsaren att nästa vilja vara med då det hände. <br /><br />
 				Texten kan bestå av flera delar:
