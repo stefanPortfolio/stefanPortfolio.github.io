@@ -1,11 +1,3 @@
-.exbok_boxes {
-    width: 90%;
-    margin: auto;
-
-    /* display: flex;
-    flex-wrap: wrap; */
-}
-
 .exbok_box {
     width: 90%;
     margin-bottom: 5%;
@@ -38,15 +30,6 @@
     background-position: center;
     background-size: contain;
 }
-
-.file1 { background-image: url("../assets/example_book/ph1.png"); }
-.file2 { background-image: url("../assets/example_book/ph2.png"); }
-.file3 { background-image: url("../assets/example_book/ph3.png"); }
-.file4 { background-image: url("../assets/example_book/ph4.png"); }
-.file5 { background-image: url("../assets/example_book/ph5.png"); }
-.file6 { background-image: url("../assets/example_book/ph6.png"); }
-.file7 { background-image: url("../assets/example_book/ph7.png"); }
-.file8 { background-image: url("../assets/example_book/ph8.png"); }
 
 @media (max-width: 500px) {
     .exbok_img { height: 30vh; }
