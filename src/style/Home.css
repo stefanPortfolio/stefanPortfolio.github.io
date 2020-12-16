@@ -58,16 +58,41 @@
     color: #4B545A;
 }
 
-
+#mobile_arrow {
+    display: none;
+}
 
 @media (max-width: 500px) {
+    .home_text { margin: 10%; }
     #landing_page { background-position: top left; }
     #landing_page_content { top: 10%; animation-name: fadeInPhone; }
     #landing_page_content_title { text-align: center; margin: auto; }
     #landing_page_content_text { font-size: 1.25em; width: unset; text-align: center; }
     .home_text { font-size: 1.75vmax; }
+    #mobile_arrow {
+        display: block;
+        font-size: 90px;
+        line-height: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 125px;
+        color: purple;
+    }
 }
 @media (max-width: 900px) and (orientation: landscape)  {
     #landing_page_content_title { font-size: 3em; }
     .home_text { font-size: 1.75vmax; }
 }
+
+
+
+
+/* 
+#mobile_arrow {
+    font-size: 90px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 200px;
+    color: purple;
+} */
