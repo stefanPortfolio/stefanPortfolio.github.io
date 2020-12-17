@@ -3,6 +3,8 @@ import BackArrow from '../components/BackArrow';
 import Cards from '../components/Cards';
 import Card from '../components/Card';
 
+import ScrollReveal from 'scrollreveal';
+
 import file1 from '../assets/example_book/ph1.png';
 import file2 from '../assets/example_book/ph2.png';
 import file3 from '../assets/example_book/ph3.png';
@@ -58,6 +60,8 @@ for (const card of cards_data) {
 }
 
 const Book = () => {
+	ScrollReveal().reveal('.exbok_box');
+
 	return (
 		<div>
 			<Headline page="Exempelbok" />
