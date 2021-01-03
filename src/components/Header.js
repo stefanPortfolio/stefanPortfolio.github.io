@@ -17,7 +17,7 @@ function Header() {
       <Link to='/contact' className="normal_header">Kontakt</Link>
 
 
-        <p id="open" onClick={open_menu}>NAV</p>
+        <p id="open" onClick={open_menu}>&#9776;</p>
 
         <div id="overlay">
           <p id="close" onClick={close_menu}>STÄNG</p>

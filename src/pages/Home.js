@@ -17,28 +17,27 @@ const Home = () => {
           </div>
 
           <div id="landing_page_content_text">
-            <p>Då kan vi hjälpa dig med rätt form, design och text!
-              En kombo av bra text, bra foton och genomtänkt indelning gör din historia läsvärd!</p>
+            <p>Då kan vi hjälpa dig med rätt form, design, text och tryck!
+              En kombo av bra text, intressanta foton och genomtänkt indelning gör Din historia läsvärd!</p>
           </div>
+
+          <div id="mobile_arrow">
+            . <br />
+            . <br />
+            .
+          </div>
+
         </div>
       </div>
 
 
       <div className="home_text">
         <q>Det första jag ser i en bok är bilderna <br />
-          sedan tittar jag på rubrikerna <br />
-          att boken känns bra i handen är också viktigt!</q>
+          sedan tittar jag på rubrikerna <br /> <br />
+          ... att boken känns bra i handen är också viktigt!</q>
       </div>
 
 
-
-      {/* <BoxRow>
-        <BoxNoLink text="Det första jag ser i en bok är bilderna" />
-        
-        <BoxNoLink text="sedan tittar jag på rubrikerna" />
-        
-        <BoxNoLink text="att boken känns bra i handen är också viktigt!" />
-      </BoxRow> */}
 
       <BoxRow>
         <Box to="/text" text="Texten"

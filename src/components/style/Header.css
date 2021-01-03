@@ -31,6 +31,8 @@ body {
 /* MOBILE HEADER */
 #open {
     color: #222222;
+    color: purple;
+    font-weight: bold;
     font-size:25px; 
     cursor:pointer; 
 

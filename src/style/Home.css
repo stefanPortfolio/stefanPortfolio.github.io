@@ -5,13 +5,13 @@
 
 /* ----- ANIMATIONS ----- */
 @keyframes fadeInDesktop {
-    0% { position: absolute; top: 60%; opacity: 0; }
-    100% { position: absolute; top: 16%; opacity: 1; }
+    0% { padding-top: 25%; opacity: 0; }
+    100% { padding-top: 7%; opacity: 1; }
 }
 
 @keyframes fadeInPhone {
-    0% { position: absolute; top: 60%; opacity: 0; }
-    100% { position: absolute; top: 10%; opacity: 1; }
+    0% { padding-top: 50%; opacity: 0; }
+    100% { padding-top: 20%; opacity: 1; }
 }
 
 
@@ -26,46 +26,55 @@
 }
 
 #landing_page_content {
-    position: absolute;
-    top: 16%;
-    left: 5%;
-    padding: 0 3%;
+    padding: 7% 0 0 7%;
     animation-name: fadeInDesktop;
-    animation-duration: 1.5s
+    animation-duration: 1.7s;
 }
 
 #landing_page_content_title {
-    font-family: orpheus-pro;
     width: 70%;
-    font-size: 5vmax;
-    font-weight: bold;
-    color: #524B47;
     color: purple;
+
+    font-family: orpheus-pro;
+    font-weight: bold;
+    font-size: 5vmax;
     line-height: 5.5vmax;
 }
 
 #landing_page_content_text {
     width: 60%;
-    font-size: 2vmax;
     color: #4C535B;
+    
+    font-size: 2vmax;
 }
 
 
 .home_text {
     margin: 3% 5%;
+    color: #4B545A;
+    
     font-size: 1.5vmax;
     font-style: italic;
-    color: #4B545A;
 }
 
-
+#mobile_arrow { display: none; }
 
 @media (max-width: 500px) {
+    .home_text { margin: 10%; }
     #landing_page { background-position: top left; }
-    #landing_page_content { top: 10%; animation-name: fadeInPhone; }
+    #landing_page_content { padding: 20% 5% 0; animation-name: fadeInPhone; }
     #landing_page_content_title { text-align: center; margin: auto; }
     #landing_page_content_text { font-size: 1.25em; width: unset; text-align: center; }
     .home_text { font-size: 1.75vmax; }
+    #mobile_arrow {
+        display: block;
+        font-size: 90px;
+        line-height: 25px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 125px;
+        color: purple;
+    }
 }
 @media (max-width: 900px) and (orientation: landscape)  {
     #landing_page_content_title { font-size: 3em; }
