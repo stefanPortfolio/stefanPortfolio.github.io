@@ -3,7 +3,7 @@ import BackArrow from '../components/BackArrow';
 import Cards from '../components/Cards';
 import Card from '../components/Card';
 
-import ScrollReveal from 'scrollreveal';
+import '../style/Book.css';
 
 import file1 from '../assets/example_book/ph1.png';
 import file2 from '../assets/example_book/ph2.png';
@@ -60,10 +60,10 @@ for (const card of cards_data) {
 }
 
 const Book = () => {
-	ScrollReveal().reveal('.exbok_box');
+	// ScrollReveal().reveal('.exbok_box');
 
 	return (
-		<div>
+		<div className="book_main">
 			<Headline page="Exempelbok" />
 
 			<Cards>

@@ -1,6 +1,8 @@
 .headline {
-    margin: 100px 0;
+    margin: 100px 0 50px 0;
     width: 100%;
+
+    color: white;
 }
 
 .headline p {
@@ -11,5 +13,5 @@
 
 @media (max-width: 500px) {
     .headline { margin: 100px 0 50px 0; }
-    .headline p { font-size: 2vmax; }
+    .headline p { font-size: 5vmax; }
 }

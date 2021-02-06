@@ -11,9 +11,13 @@ ul {
     font-size: 1.5vmax;
 }
 
-.middle_tab_content::first-letter {
+/* .middle_tab_content::first-letter {
     font-size: 300%;
     line-height: 0;
+} */
+
+.st {
+    text-align: center;
 }
 
 @media (max-width: 500px) {

@@ -13,12 +13,12 @@ const Home = () => {
       <div id="landing_page">
         <div id="landing_page_content">
           <div id="landing_page_content_title">
-            <p>Vill du att fler ska läsa Din historia?</p>
+            <p>Funderar du på att göra en bok av din historia?</p>
           </div>
 
           <div id="landing_page_content_text">
             <p>Då kan vi hjälpa dig med rätt form, design, text och tryck!
-              En kombo av bra text, intressanta foton och genomtänkt indelning gör Din historia läsvärd!</p>
+              Bra text, intressanta foton och en genomtänkt struktur gör din historia läsvärd!</p>
           </div>
 
           <div id="mobile_arrow">
