@@ -4,22 +4,20 @@ ul {
 }
 
 .middle_tab_content {
-    width: 50%;
+    width: 70%;
     margin: auto;
-    /* margin-top: 100px; */
-    padding: 0 5% 5% 5%;
-    font-size: 1.5vmax;
-}
+    padding: 3% 5%;
+    font-size: 1.75vmax;
 
-/* .middle_tab_content::first-letter {
-    font-size: 300%;
-    line-height: 0;
-} */
+    background: #9B9DEB;
+    color: white;
+    border-radius: 10px;
+}
 
 .st {
     text-align: center;
 }
 
 @media (max-width: 500px) {
-    .middle_tab_content { width: 90%; font-size: 20px; }
+    .middle_tab_content { width: 80%; font-size: 20px; }
 }

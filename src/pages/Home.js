@@ -46,7 +46,7 @@ const Home = () => {
         <Box to="/photo" text="Bilden"
           style={{backgroundImage: `url(${BildenImg})`}} />
         
-        <Box to="/intro" text="Inledningen"
+        <Box to="/intro" text="Strukturen"
           style={{backgroundImage: `url(${IntroImg})`}} />
       </BoxRow>
 

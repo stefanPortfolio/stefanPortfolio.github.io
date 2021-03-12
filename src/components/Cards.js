@@ -1,6 +1,6 @@
 import './style/Cards.css';
 
-const Cards = (props) => {
+const Cards = props => {
 	return (
 		<div className="exbok_boxes">
 			{props.children}

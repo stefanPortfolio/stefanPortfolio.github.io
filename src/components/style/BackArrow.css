@@ -4,6 +4,7 @@
     text-align: center;
     font-size: 1.5vmax;
     font-weight: bold;
+    display: inline;
 }
 
 a {

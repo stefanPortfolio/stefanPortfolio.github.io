@@ -59,20 +59,15 @@ for (const card of cards_data) {
 	);
 }
 
-const Book = () => {
-	// ScrollReveal().reveal('.exbok_box');
+const Book = () => (
+	<div className="book_main">
+		<Headline page="Exempelbok" />
+		{/* <BackArrow /> */}
 
-	return (
-		<div className="book_main">
-			<Headline page="Exempelbok" />
-
-			<Cards>
-				{cards}
-			</Cards>
-
-			<BackArrow />
-		</div>
-	)
-};
+		<Cards>
+			{cards}
+		</Cards>
+	</div>
+);
 
 export default Book;

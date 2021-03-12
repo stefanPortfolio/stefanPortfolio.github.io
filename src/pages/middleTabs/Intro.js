@@ -4,7 +4,7 @@ import Headline from '../../components/Headline';
 
 const Intro = () => {
 	return (
-		<div style={{background: "#AB96D2", color: "white"}}>
+		<div /*style={{background: "#AB96D2", color: "white"}}*/>
 			<Headline page="Strukturen" />
 
 			<div className="middle_tab_content">
@@ -13,7 +13,7 @@ const Intro = () => {
 				Läsaren förväntas komma tillbaka till boken flera gånger och upptäcka något nytt varje gång.    
 			</div>
 
-			<BackArrow />
+			{/* <BackArrow /> */}
 		</div>
 	)
 };

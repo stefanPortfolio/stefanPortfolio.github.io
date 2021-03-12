@@ -1,13 +1,16 @@
 .headline {
     margin: 100px 0 50px 0;
     width: 100%;
+    color: black;
 
-    color: white;
+    background: white;
+    border: 1px solid white;
 }
 
 .headline p {
-    font-size: 1.75vmax;
-    text-align: center;
+    font-size: 5vmax;
+    margin-left: 10%;
+    line-height: 0;
     font-weight: bold;
 }
 

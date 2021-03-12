@@ -12,6 +12,7 @@ import Text from './pages/middleTabs/Text';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 const PageNotFound = () => {
   const styling = {
@@ -30,16 +31,17 @@ const PageNotFound = () => {
 ReactDOM.render(
     <Router>
       <Header />
-       <Switch>
-		      <Route exact path="/" component={Home} />
-				  <Route exact path="/contact" component={Contact} />
-				  <Route exact path="/book" component={Book} />
-				  <Route exact path="/reference" component={Reference} />
-				  <Route exact path="/intro" component={Intro} />
-				  <Route exact path="/photo" component={Photo} />
-				  <Route exact path="/text" component={Text} />
-          <Route exact component={PageNotFound} />
-	    </Switch>
+        <ScrollToTop />
+        <Switch>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/book" component={Book} />
+            <Route exact path="/reference" component={Reference} />
+            <Route exact path="/intro" component={Intro} />
+            <Route exact path="/photo" component={Photo} />
+            <Route exact path="/text" component={Text} />
+            <Route exact component={PageNotFound} />
+        </Switch>
       <Footer />
     </Router>,
     document.getElementById('root')

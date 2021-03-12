@@ -1,12 +1,10 @@
 import './style/BackArrow.css';
 import { Link } from "react-router-dom";
 
-const Text = () => {
-	return (
-		<div className="back">
-            <Link to='/'>&#8678; Gå tillbaka</Link>
-		</div>
-	)
-};
+const Text = () => (
+	<div className="back">
+		<Link to='/'>&#8678;</Link>
+	</div>
+);
 
 export default Text;

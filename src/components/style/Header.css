@@ -13,15 +13,16 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    width: 90%;
+    width: 100%;
     margin: auto;
     display: flex;
     align-items: center;
+
+    /* border: 1px solid red; */
 }
 
 .header a {
     color: black;
-    text-decoration: none;
     font-weight: bold;
     font-size: 1.25vmax;
     padding: 40px 20px;
@@ -31,12 +32,12 @@ body {
 /* MOBILE HEADER */
 #open {
     color: #222222;
-    color: purple;
     font-weight: bold;
-    font-size:25px; 
-    cursor:pointer; 
+    font-size:25px;
+    cursor:pointer;
+    padding-left: 10%;
 
-    display: none;
+    text-decoration: underline;
 }
 
 #overlay { 
@@ -56,6 +57,8 @@ body {
     top: 10%; 
     width: 100%; 
     padding-left: 10%;
+
+    text-decoration: underline;
 }
 
 #overlay #close {
@@ -64,20 +67,21 @@ body {
     margin: auto;
     display: flex;
     align-items: center;
+    font-weight: bold;
 
     font-size: 25px; 
     color: #222222;
     cursor: pointer;
+
+    text-decoration: underline;
 }
 
 #overlay a {
     padding: 8px; 
-    text-decoration: none; 
     font-size: 45px; 
     color: #222222; 
     display: block;
     border: none;
-    background: none;
     cursor: pointer;
 }
 

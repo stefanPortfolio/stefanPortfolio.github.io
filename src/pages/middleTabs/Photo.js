@@ -4,7 +4,7 @@ import Headline from '../../components/Headline';
 
 const Photo = () => {
 	return (
-		<div style={{background: "#C5E2EE"}}>
+		<div /*style={{background: "#C5E2EE"}}*/>
 			<Headline page="Bilden" />
 
 			<div className="middle_tab_content">
@@ -13,7 +13,7 @@ const Photo = () => {
 				Ofta ser man först bilden, sedan texten. Val av bild är därför viktigt. Den ska passa in. Den kan vara svartvit eller i färg. Den kan vara begränsad eller utfallande, var ljus eller mörk. Välj noga!    
 			</div>
 
-			<BackArrow />
+			{/* <BackArrow /> */}
 		</div>
 	)
 };
