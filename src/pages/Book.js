@@ -16,7 +16,7 @@ import file8 from '../assets/example_book/ph8.png';
 
 const cards_data = [
 	{
-		text: "En Odd Fellow-loge fyller 125-år. Jubileumsboken skulle locka till läsning med korta texter och många bilder!",
+		text: "En Odd Fellow-loge fyller 125 år. Jubileumsboken skulle locka till läsning med korta texter och många bilder!",
 		background: file1
 	},
 	{
@@ -44,7 +44,7 @@ const cards_data = [
 		background: file7
 	},
 	{
-		text: "En Odd Fellow-loge fyller 125-år. Jubileumsboken skulle locka till läsning med korta texter och många bilder!",
+		text: "",
 		background: file8
 	}
 ];
@@ -61,12 +61,13 @@ for (const card of cards_data) {
 
 const Book = () => (
 	<div className="book_main">
-		<Headline page="Exempelbok" />
-		{/* <BackArrow /> */}
+		<Headline page="Exempelbok" bg="#F9D1AF" />
 
 		<Cards>
 			{cards}
 		</Cards>
+		
+		<BackArrow />
 	</div>
 );
 

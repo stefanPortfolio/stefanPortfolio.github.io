@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
+import MetaTags from 'react-meta-tags';
+
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Book from './pages/Book';
@@ -30,6 +32,10 @@ const PageNotFound = () => {
 
 ReactDOM.render(
     <Router>
+      <MetaTags>
+        <title>Nilszen Form &amp; Design</title>
+        <meta name="robots" content="nilszen, design, form, tryck, bok, egen bok" />
+      </MetaTags>
       <Header />
         <ScrollToTop />
         <Switch>

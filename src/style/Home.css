@@ -6,7 +6,7 @@
 /* ----- ANIMATIONS ----- */
 @keyframes fadeInDesktop {
     0% { padding-top: 25%; opacity: 0; }
-    100% { padding-top: 7%; opacity: 1; }
+    100% { padding-top: 2%; opacity: 1; }
 }
 
 @keyframes fadeInPhone {
@@ -17,7 +17,7 @@
 
 /* ----- LANDING PAGE ----- */
 #landing_page {
-    height: 95vh;
+    height: 85vh;
     background: url('../assets/background/background.jpg');
     background-repeat: no-repeat;
     background-position: top right;
@@ -26,7 +26,7 @@
 }
 
 #landing_page_content {
-    padding: 7% 0 0 7%;
+    padding: 2% 0 0 7%;
     animation-name: fadeInDesktop;
     animation-duration: 1.7s;
 }
@@ -35,16 +35,14 @@
     width: 70%;
     color: purple;
 
-    font-family: orpheus-pro;
     font-weight: bold;
     font-size: 5vmax;
-    line-height: 5.5vmax;
+    line-height: 6vmax;
 }
 
 #landing_page_content_text {
     width: 60%;
     color: #4C535B;
-    
     font-size: 2vmax;
 }
 
@@ -53,7 +51,7 @@
     margin: 3% 5%;
     color: #4B545A;
     
-    font-size: 1.5vmax;
+    font-size: 2vmax;
     font-style: italic;
 }
 
@@ -72,11 +70,13 @@
         line-height: 25px;
         font-weight: bold;
         text-align: center;
-        margin-top: 125px;
+        /* margin-top: 10px; */
         color: purple;
     }
+
+    #logo_img { width: 50%; display: block; margin: auto; }
 }
 @media (max-width: 900px) and (orientation: landscape)  {
     #landing_page_content_title { font-size: 3em; }
-    .home_text { font-size: 1.75vmax; }
+    /* .home_text { font-size: 4vmax; } */
 }

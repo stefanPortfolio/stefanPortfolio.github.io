@@ -11,18 +11,19 @@ const close_menu = () => {
 
 const Header = () => (
   <div className="header">
-      <p id="open" onClick={open_menu}>Menu</p>
+      <p id="open" onClick={open_menu}>&#9776;</p>
       
       <div id="overlay">
         <p id="close" onClick={close_menu}>STÄNG</p>
 
         <div id="links">
-          <Link to='/' onClick={close_menu}>Hem</Link>
-          <Link to='/text' onClick={close_menu}>Texten</Link>
-          <Link to='/photo' onClick={close_menu}>Bilden</Link>
-          <Link to='/intro' onClick={close_menu}>Strukturen</Link>
-          <Link to='/book' onClick={close_menu}>Exempelbok</Link>
-          <Link to='/contact' onClick={close_menu}>Kontakt</Link>
+          <Link to='/' onClick={close_menu} style={{background: "#EEE7E1"}}>Hem</Link>
+          <Link to='/text' onClick={close_menu} style={{background: "#B8B8B8"}}>Texten</Link>
+          <Link to='/photo' onClick={close_menu} style={{background: "#C5E2EE"}}>Bilden</Link>
+          <Link to='/intro' onClick={close_menu} style={{background: "#AA95D0"}}>Strukturen</Link>
+          <Link to='/book' onClick={close_menu} style={{background: "#F9D1AF"}}>Exempelbok</Link>
+          <Link to='/reference' onClick={close_menu} style={{background: "#DCEED1"}}>Referenser</Link>
+          <Link to='/contact' onClick={close_menu} style={{background: "#FFB1A3"}}>Kontakt</Link>
         </div>
       </div>
       

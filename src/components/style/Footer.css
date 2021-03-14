@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 1.25vmax;
     color: #524B47;
 
@@ -10,8 +10,5 @@
 }
 
 @media (max-width: 500px) {
-    .footer { font-size: 2vmax; }
-}
-@media (max-width: 900px) and (orientation: landscape)  {
-    .footer { font-size: 2vmax; }
+    /* .footer { font-size: 2vmax; } */
 }

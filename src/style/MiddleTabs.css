@@ -6,12 +6,13 @@ ul {
 .middle_tab_content {
     width: 70%;
     margin: auto;
-    padding: 3% 5%;
+    /* padding: 3% 5%; */
     font-size: 1.75vmax;
+    /* hyphens: auto; */
 
-    background: #9B9DEB;
+    /* background: #9B9DEB;
     color: white;
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 
 .st {
@@ -19,5 +20,5 @@ ul {
 }
 
 @media (max-width: 500px) {
-    .middle_tab_content { width: 80%; font-size: 20px; }
+    .middle_tab_content { width: 90%; font-size: 20px; }
 }

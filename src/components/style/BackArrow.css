@@ -2,15 +2,46 @@
     width: 100%;
     margin: auto;
     text-align: center;
-    font-size: 1.5vmax;
+    font-size: 3vmax;
     font-weight: bold;
-    display: inline;
+    color: white;
+    /* display: inline; */
+    margin: auto;
 }
 
-a {
+#back_a {
     text-decoration: none;
+    /* background: white;
+    padding: 5px 100px;
+    border-radius: 100px; */
 }
+
+/* @media (max-width: 500px) {
+    .back { font-size: 2vmax; }
+} */
+
+
+/* unvisited link */
+#back_a:link {
+color:white;
+}
+
+/* visited link */
+#back_a:visited {
+color:white;
+}
+
+/* mouse over link */
+#back_a:hover {
+color:white;
+}
+
+/* selected link */
+#back_a:active {
+color:white;
+}
+
 
 @media (max-width: 500px) {
-    .back { font-size: 20px; }
+    a { font-size: 6vmax; }
 }

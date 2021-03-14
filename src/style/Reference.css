@@ -1,8 +1,9 @@
-.ref_main {
-    background-color: #DCDCDE;
-}
-
 .ref_imgs {
     display: block;
     margin: auto;
+}
+
+
+@media (max-width: 500px) {
+    .ref_imgs { width: 100%; }
 }

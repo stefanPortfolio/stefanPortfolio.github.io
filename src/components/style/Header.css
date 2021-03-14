@@ -24,7 +24,7 @@ body {
 .header a {
     color: black;
     font-weight: bold;
-    font-size: 1.25vmax;
+    font-size: 1vmax;
     padding: 40px 20px;
     transition: .3s;
 }
@@ -36,8 +36,6 @@ body {
     font-size:25px;
     cursor:pointer;
     padding-left: 10%;
-
-    text-decoration: underline;
 }
 
 #overlay { 
@@ -48,6 +46,7 @@ body {
     top: 0; 
     left: 0; 
     background: #FAFAFA; 
+    background: grey;
     overflow-x: hidden; 
     transition: 0.3s; 
 } 
@@ -55,10 +54,10 @@ body {
 #links {
     position: relative; 
     top: 10%; 
-    width: 100%; 
+    width: 40%;
     padding-left: 10%;
 
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #overlay #close {
@@ -71,18 +70,20 @@ body {
 
     font-size: 25px; 
     color: #222222;
+    color: white;
     cursor: pointer;
 
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 #overlay a {
     padding: 8px; 
-    font-size: 45px; 
+    font-size: 40px; 
     color: #222222; 
     display: block;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
@@ -90,6 +91,11 @@ body {
     .header a { font-size: 2vmax; }
     #open { display: block; }
     .normal_header { display: none; }
+    #links { width: 80%; }
+    #overlay a {
+        font-size: 25px;
+    }
+    
 }
 @media (max-width: 900px) and (orientation: landscape)  {
     .header a { font-size: 2vmax; }

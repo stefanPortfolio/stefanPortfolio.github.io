@@ -4,8 +4,8 @@ import Headline from '../../components/Headline';
 
 const Intro = () => {
 	return (
-		<div /*style={{background: "#AB96D2", color: "white"}}*/>
-			<Headline page="Strukturen" />
+		<div>
+			<Headline page="Strukturen" bg="#AA95D0" />
 
 			<div className="middle_tab_content">
 				Strukturen kräver eftertanke. En roman har en löpande text och kanske en kapitelindelning. I vår typ av bok är kapitel och avsnitt avgörande för läsupplevelsen. <br /><br />
@@ -13,7 +13,7 @@ const Intro = () => {
 				Läsaren förväntas komma tillbaka till boken flera gånger och upptäcka något nytt varje gång.    
 			</div>
 
-			{/* <BackArrow /> */}
+			<BackArrow />
 		</div>
 	)
 };
