@@ -1,7 +1,7 @@
 .exbok_box {
     width: 80%;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 
     display: flex;
     align-items: center;
@@ -21,6 +21,8 @@
     /* margin-bottom: 5px; */
     font-size: 1.5vmax;
 
+    /* border: 1px solid red; */
+
     display: flex;
     justify-content: center;
     /* align-items: center; */
@@ -34,11 +36,13 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+
+    /* border: 1px solid red; */
 }
 
 @media (max-width: 500px) {
     .exbok_box { width: 100%; }
     .exbok_img { height: 30vh; width: 100%; }
-    .exbok_text { font-size: 2vmax; width: 90%; }
+    .exbok_text { font-size: 2vmax; width: 90%; margin-bottom: 15px; }
     .exbok_box { flex-wrap: wrap; }
 }

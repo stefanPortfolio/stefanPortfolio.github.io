@@ -14,7 +14,7 @@ function Contact() {
         Har du frågor eller funderingar,<br />kontakta oss!
       </div>
 
-      <img id="contact_img" src={contact_img} width="700" alt="" />
+      <img id="contact_img" src={contact_img} width="500" alt="" />
 
       <div className="contact_content">
         Stefan Nilszén<br />
@@ -22,7 +22,6 @@ function Contact() {
         Fil. kand. i historia, religion och statskunskap. <br />
         Lärare och projektledare.
         </div>
-        <img id="contact_img" src={logo} width="700" alt="" />
         <a href="mailto:stefan.nilszen@teliacompany.com">e-post</a> eller <a href="tel:+46706678855">070-667 88 55</a>
       </div>
 

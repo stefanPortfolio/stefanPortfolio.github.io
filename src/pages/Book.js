@@ -44,7 +44,7 @@ const cards_data = [
 		background: file7
 	},
 	{
-		text: "",
+		text: "En kombination av bilder och kortare texter ger en bra helhetsupplevelse.",
 		background: file8
 	}
 ];
