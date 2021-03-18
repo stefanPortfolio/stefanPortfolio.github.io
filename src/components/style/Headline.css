@@ -3,15 +3,19 @@
 @font-face{font-family:orpheus-pro;src:url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/l?subset_id=2&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/d?subset_id=2&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/320790/000000000000000000015d5b/27/a?subset_id=2&fvd=i4&v=3) format("opentype");font-weight:400;font-style:italic;font-display:auto;}
 
 
+/* ----- ANIMATIONS ----- */
+@keyframes fadeIn {
+    0% { padding-left: 10%; opacity: 0; }
+    100% { padding-left: 0; opacity: 1; }
+}
+
 .headline {
     margin: 100px 0 50px 0;
     width: 100%;
     color: black;
-
-    /* background: white; */
-    /* border: 1px solid white; */
-
-    /* font-family: orpheus-pro; */
+    
+    animation-name: fadeIn;
+    animation-duration: 1.7s;
 }
 
 .headline p {

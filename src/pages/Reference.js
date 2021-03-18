@@ -15,11 +15,11 @@ const Reference = () => {
 			<Headline page="Referenser" bg="#DCEED1" />
 
 			<div>
-				<img src={ref1} alt="" width="600" className="ref_imgs" />
-				<img src={ref2} alt="" width="600" className="ref_imgs" />
-				<img src={ref3} alt="" width="600" className="ref_imgs" />
-				<img src={ref4} alt="" width="600" className="ref_imgs" />
 				<img src={ref5} alt="" width="600" className="ref_imgs" />
+				<img src={ref4} alt="" width="600" className="ref_imgs" />
+				<img src={ref3} alt="" width="600" className="ref_imgs" />
+				<img src={ref2} alt="" width="600" className="ref_imgs" />
+				<img src={ref1} alt="" width="600" className="ref_imgs" />
 			</div>
 
 			<BackArrow />

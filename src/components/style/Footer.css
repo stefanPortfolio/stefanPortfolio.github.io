@@ -1,14 +1,21 @@
 .footer {
     width: 100%;
     margin: 10px 0;
-    font-size: 1.25vmax;
+    font-size: 1vmax;
     color: #524B47;
+    padding-top: 10px;
+}
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#footer_p {
+    text-align: center;
+}
+
+#logo_img {
+    width: 300px;
+    display: block;
+    margin: auto;
 }
 
 @media (max-width: 500px) {
-    /* .footer { font-size: 2vmax; } */
+    .footer { font-size: 1.25vmax; }
 }

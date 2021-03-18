@@ -35,6 +35,9 @@ ReactDOM.render(
       <MetaTags>
         <title>Nilszen Form &amp; Design</title>
         <meta name="robots" content="nilszen, design, form, tryck, bok, egen bok" />
+        <meta name="description" content="Funderar du på att göra en bok av din historia? 
+          Då kan vi hjälpa dig med rätt form, design, text och tryck!
+          Bra text, intressanta foton och en genomtänkt struktur gör din historia läsvärd!" />
       </MetaTags>
       <Header />
         <ScrollToTop />

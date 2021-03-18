@@ -2,7 +2,11 @@ import "./style/Header.css";
 import { Link } from "react-router-dom";
 
 const open_menu = () => {
-  document.getElementById('overlay').style.width = "100%";
+  if (window.matchMedia('(max-device-width: 500px)').matches) {
+    document.getElementById('overlay').style.width = "70%";
+  } else {
+    document.getElementById('overlay').style.width = "30%";
+  }
 };
 
 const close_menu = () => {

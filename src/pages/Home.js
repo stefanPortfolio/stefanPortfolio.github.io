@@ -25,7 +25,7 @@ const Home = () => {
               Bra text, intressanta foton och en genomtänkt struktur gör din historia läsvärd!</p>
           </div>
 
-          <img id="logo_img" src={logo} width="600" alt="" />
+          {/* <img id="logo_img" src={logo} width="600" alt="" /> */}
 
           {/* <div id="mobile_arrow">
             . <br />
