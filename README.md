@@ -1,7 +1,7 @@
 # Portfolio website for Stefan Nilszén
 This is a portfolio website written in react and deployed to github pages with `gh-pages`.
 
-Live website  [here](https://stefanportfolio.github.io/)!
+Live website  [here](https://nilszenformdesign.se/)!
 
 ## Installation
 Make sure you have node.js, npm and yarn installed on your system.
