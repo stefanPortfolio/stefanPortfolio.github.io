@@ -1,4 +1,4 @@
-import "./style/Headline.css";
+import '../style/components/Headline.css';
 
 const Headline = props => {
   document.body.style.backgroundColor = props.bg;

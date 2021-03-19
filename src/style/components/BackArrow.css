@@ -1,0 +1,37 @@
+#back_holder {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+#back {
+    margin: auto;
+    text-align: center;
+}
+
+#back_a {
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1vmax;
+
+    background: white;
+    padding: 1% 2%;
+    border-radius: 100px;
+    /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); */
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+#back_a:link,#back_a:visited, #back_a:hover,#back_a:active {
+    color:black;
+}
+
+
+@media (max-width: 500px) {
+    #back_a {
+        padding: 3% 4%;
+        font-size: 2vmax;
+    }
+}

@@ -1,3 +1,7 @@
+/*
+Used to scrool to top of page after a redirect.
+*/
+
 import React from "react";
 import { withRouter } from "react-router-dom";
 

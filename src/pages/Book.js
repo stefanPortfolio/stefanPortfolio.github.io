@@ -1,7 +1,5 @@
 import Headline from '../components/Headline';
 import BackArrow from '../components/BackArrow';
-import Cards from '../components/Cards';
-import Card from '../components/Card';
 
 import '../style/Book.css';
 
@@ -51,6 +49,15 @@ const cards_data = [
 
 let cards = [];
 
+const Card = (props) => {
+    return (
+        <div className="book_box">
+            <div className="book_img" style={props.background} />
+            <div className="book_text">{props.text}</div>
+        </div>
+    )
+};
+
 for (const card of cards_data) {
 	cards.push(
 		<Card
@@ -60,13 +67,13 @@ for (const card of cards_data) {
 }
 
 const Book = () => (
-	<div className="book_main">
+	<div>
 		<Headline page="Exempelbok" bg="#F9D1AF" />
 
-		<Cards>
+		<div className="book_boxes">
 			{cards}
-		</Cards>
-		
+		</div>
+
 		<BackArrow />
 	</div>
 );

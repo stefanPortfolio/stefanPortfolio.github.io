@@ -1,3 +1,49 @@
-/* .book_main {
-    background: #F9D1AF;
+/* Card Holder */
+.book_boxes {
+    width: 90%;
+    margin: auto;
+}
+
+/* Card */
+.book_box {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    color: black;
+    transition: .25s;
+    
+    border-radius: 10px;
+    background: #f8d6b8;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/* .book_box:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 } */
+
+.book_text {
+    width: 45%;
+    margin: auto;
+    font-size: 1.5vmax;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.book_img {
+    width: 50%;
+    margin: auto;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+@media (max-width: 500px) {
+    .book_box { width: 100%; }
+    .book_img { height: 30vh; width: 100%; }
+    .book_text { font-size: 2vmax; width: 90%; margin-bottom: 15px; }
+    .book_box { flex-wrap: wrap; }
+}

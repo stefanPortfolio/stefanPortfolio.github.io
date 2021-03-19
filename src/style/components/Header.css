@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: black;
+    font-weight: bold;
+    font-size: 1vmax;
+    padding: 40px 20px;
+    transition: .3s;
+}
+
+/* MOBILE HEADER */
+#open {
+    color: #222222;
+    font-weight: bold;
+    font-size:25px;
+    cursor:pointer;
+    padding-left: 10%;
+}
+
+#overlay { 
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0; 
+    background: #FAFAFA;
+    overflow-x: hidden;
+    transition: 0.3s;
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+} 
+
+#links {
+    position: relative; 
+    width: 80%;
+    padding-top: 10%;
+    padding-left: 10%;
+    text-decoration: none;
+}
+
+#close {
+    width: 60%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px; 
+    color: #222222;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link {
+    padding: 8px; 
+    font-size: 40px; 
+    color: #222222; 
+    display: block;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+@media (max-width: 500px) {
+    .link { font-size: 2vmax; }
+    #open { display: block; }
+    #links { width: 80%; }
+    .link { font-size: 25px; }
+    
+}

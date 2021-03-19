@@ -2,8 +2,7 @@ import "../style/Contact.css";
 import Headline from '../components/Headline';
 import BackArrow from '../components/BackArrow';
 
-import contact_img from "../assets/contact2.png";
-import logo from "../assets/logo.png";
+import contact_img from "../assets/contact_img.png";
 
 function Contact() {
   return (
@@ -14,7 +13,7 @@ function Contact() {
         Har du frågor eller funderingar,<br />kontakta oss!
       </div>
 
-      <img id="contact_img" src={contact_img} width="500" alt="" />
+      <img id="contact_img" src={contact_img} alt="" />
 
       <div className="contact_content">
         Stefan Nilszén<br />
@@ -22,7 +21,7 @@ function Contact() {
         Fil. kand. i historia, religion och statskunskap. <br />
         Lärare och projektledare.
         </div>
-        <a href="mailto:stefan.nilszen@teliacompany.com">e-post</a> eller <a href="tel:+46706678855">070-667 88 55</a>
+        <a id="contact_me" href="mailto:stefan.nilszen@gmail.com">e-post</a>.
       </div>
 
       <BackArrow />

@@ -8,9 +8,9 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Book from './pages/Book';
 import Reference from './pages/Reference';
-import Intro from './pages/middleTabs/Intro';
-import Photo from './pages/middleTabs/Photo';
-import Text from './pages/middleTabs/Text';
+import Intro from './pages/Intro';
+import Photo from './pages/Photo';
+import Text from './pages/Text';
 
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -34,11 +34,12 @@ ReactDOM.render(
     <Router>
       <MetaTags>
         <title>Nilszen Form &amp; Design</title>
-        <meta name="robots" content="nilszen, design, form, tryck, bok, egen bok" />
+        {/* <meta name="robots" content="nilszen, design, form, tryck, bok, egen bok" /> */}
         <meta name="description" content="Funderar du på att göra en bok av din historia? 
           Då kan vi hjälpa dig med rätt form, design, text och tryck!
           Bra text, intressanta foton och en genomtänkt struktur gör din historia läsvärd!" />
       </MetaTags>
+
       <Header />
         <ScrollToTop />
         <Switch>

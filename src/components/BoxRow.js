@@ -1,8 +1,8 @@
-import './style/BoxRow.css';
+import '../style/components/BoxRow.css';
 
-const BoxRow = (props) => {
+const BoxRow = props => {
   return (
-      <div className="boxes" id={props.id}>
+      <div className="boxes">
         <div className="row">
             {props.children}
         </div>

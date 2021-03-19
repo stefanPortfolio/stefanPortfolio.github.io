@@ -11,26 +11,19 @@
     text-align: center;
 }
 
-.contact_content a {
-    font-size: 1.5vmax;
-}
-
 #contact_img {
     display: block;
     margin: auto;
     padding-bottom: 2%;
+    width: 300px;
 }
 
-#info_text {
+#info_text, #contact_me {
     font-size: 1.25vmax;
 }
 
 @media (max-width: 500px) {
     .contact_content { width: 90%; font-size: 20px; }
-    .contact_content a { font-size: 20px; }
-    #info_text { font-size: 14px; }
+    #info_text, #contact_me { font-size: 16px; }
     #contact_img { width: 70%; }
-    .contact_main {
-        overflow-x: hidden;
-    }
 }

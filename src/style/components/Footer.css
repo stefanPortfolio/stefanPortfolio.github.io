@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    margin: 10px 0;
+    font-size: 1vmax;
+    color: #524B47;
+    padding-top: 10px;
+}
+
+#footer_p {
+    text-align: center;
+}
+
+#logo_img {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+@media (max-width: 500px) {
+    .footer { font-size: 1.25vmax; }
+    #logo_img { width: 150px; }
+}
