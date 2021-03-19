@@ -39,7 +39,7 @@ const Home = () => {
 
       <div className="home_text">
       <marquee behavior="scroll" direction="left" scrollamount="10">
-      Det första jag ser i en bok är bilderna sedan tittar jag på rubrikerna.
+      Det första jag ser i en bok är bilderna, sedan tittar jag på rubrikerna...
       </marquee>
         {/* <q>Det första jag ser i en bok är bilderna <br />
           sedan tittar jag på rubrikerna <br /> <br />
